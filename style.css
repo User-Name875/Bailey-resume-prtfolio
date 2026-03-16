@@ -9,15 +9,15 @@ body {
 }
 
 .banner {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
 
 .navigation, .content, .footer {
-    padding: 1rem;
-    margin: 0.5rem;
+    padding: 5px;
+    margin: 5px;
 }
 
 .navigation ul {
@@ -66,4 +66,8 @@ a:active {
     color: #f8f9fa;
     text-align: center;
     margin-top: auto; /* Pushes the Footer to the bottom */
+}
+
+a, #game_link {
+    color: #0d5dad;
 }
